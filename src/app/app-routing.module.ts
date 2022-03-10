@@ -3,10 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutUsPageModule } from './pages/about-us.page-module';
 import { HomePageModule } from './pages/home.page-module';
 
-const routes: Routes = [{ 
+const routes: Routes = [
+  { 
         path: 'about-us', 
-        loadChildren: () => AboutUsPageModule
-      }];
+        loadChildren: () => AboutUsPageModule,
+        
+      }
+    ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes), HomePageModule, AboutUsPageModule],
