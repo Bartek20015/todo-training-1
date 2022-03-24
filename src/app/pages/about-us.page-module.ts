@@ -11,7 +11,7 @@ import { OurTeamComponentModule } from '../../../projects/team/src/lib/adapters/
           component: AboutUsPage,
         }
       ]),
-  OurTeamComponentModule
+  OurTeamComponentModule,
 ],
   	declarations: [AboutUsPage],
   	providers: [],
