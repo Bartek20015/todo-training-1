@@ -7,7 +7,7 @@ import { ContactUsPageModule } from './pages/contact-us.page-module';
 
 const routes: Routes = [
   { 
-        path: 'about-us', 
+        path: 'o-nas', 
         loadChildren: () => AboutUsPageModule,
 
         

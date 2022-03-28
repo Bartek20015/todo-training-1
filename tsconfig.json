@@ -15,7 +15,8 @@
     "paths": {
       "team": ["dist/team/team", "dist/team"],
       "@messages": ["projects/messages/src/index.ts"],
-      "@navigation": ["projects/navigation/src/index.ts"]
+      "@navigation": ["projects/navigation/src/index.ts"],
+      "@team": ["projects/team/src/public-api.ts"]
     }
   },
   "angularCompilerOptions": { "enableI18nLegacyMessageIdFormat": false }

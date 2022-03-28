@@ -12,4 +12,4 @@
           </div>
       </div>
     </div>
-  </div>
+  </div><ul><li *ngFor="let item of employees$ | async">{{ item | json }}</li></ul>
